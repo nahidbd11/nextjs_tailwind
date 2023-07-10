@@ -15,7 +15,10 @@ const Navbar = () => {
       <a href="" className=" hover:text-red-900">
         Pricing
       </a>
-      <a href="" className="rounded-full bg-[#FD581C] p-2 text-white">
+      <a
+        href=""
+        className="rounded-full bg-primaryRed p-2 text-white hover:opacity-50"
+      >
         Get Started
       </a>
     </nav>
