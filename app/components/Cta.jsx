@@ -3,11 +3,11 @@ import React from 'react'
 const Cta = () => {
   return (
     <section className='bg-primaryRed w-screen mt-16 p-6 text-center'>
-    <div className='container mx-auto sm:px-16 h-40  text-white flex flex-col justify-between md:flex-row items-center '>
-      <h2 className='text-4xl md:max-w-xl text-center'>Lorem, ipsum dolor.</h2>
+    <div className='container mx-auto px-0 md:px-16 py-5   text-white flex flex-col md:justify-between md:flex-row items-center gap-5 '>
+      <h2 className='sm:text-4xl text-2xl md:max-w-xl sm:text-center'>Lorem, ipsum dolor.</h2>
       <a
         href=""
-        className="rounded-full bg-white p-2 text-primaryRed hover:opacity-50"
+        className="rounded-full bg-white px-2 py-2 text-primaryRed hover:opacity-50"
       >
         Get Started
       </a>
