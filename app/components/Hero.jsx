@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section id="hero" className="container">
       <div className="flex flex-col-reverse md:flex-row items-center mx-auto">
-        {/* Left section */}
+        {/* Left section of her */}
         <div
           id="left"
           className="flex flex-col md:w-1/2 mt-10 space-y-10 justify-center items-center md:items-start"
