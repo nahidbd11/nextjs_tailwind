@@ -21,7 +21,7 @@ const Footer = () => {
               <li>blogs</li>
             </ul>
           </div>
-          <div className="flex gap-x-2 ">
+          <div className="flex gap-x-2 px-4 justify-center">
             <input
               className="rounded-full focus:outline-none   text-center text-black py-2 "
               placeholder="enter your email"
