@@ -3,7 +3,7 @@ import heroSvg from "@/public/images/hero.svg";
 import Image from "next/image";
 const Hero = () => {
   return (
-    <section id="hero">
+    <section id="hero" className="container">
       <div className="flex flex-col-reverse md:flex-row items-center mx-auto">
         {/* Left section */}
         <div
@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
         {/* right section */}
         <div id="rignt" className="md:w-1/2">
-          <Image src={heroSvg} />
+          <Image src={heroSvg} alt="alt" />
         </div>
       </div>
     </section>
