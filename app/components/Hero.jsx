@@ -1,5 +1,5 @@
 import React from "react";
-import heroSvg from "@/public/images/hero.svg";
+import heroSvg from "@/public/images/hero.png";
 import Image from "next/image";
 const Hero = () => {
   return (
@@ -20,7 +20,7 @@ const Hero = () => {
           </p>
           <a
             href=""
-            className="rounded-full bg-[#FD581C] p-2 text-white hover:opacity-50 w-36 text-center"
+            className="rounded-full bg-primaryRed p-2 text-white hover:opacity-50 w-36 text-center"
           >
             Get Started
           </a>
